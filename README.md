@@ -70,10 +70,10 @@
     ng serve
     ```
 7. Credenciales para inicio de sesión
-8. ```
+ ```
       Usuario: 18.758.163-K
       Contraseña: contrasena
-
+```
 ## Mockups en figma
 
 Archivo (link)

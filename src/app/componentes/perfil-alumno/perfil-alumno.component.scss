@@ -1,0 +1,39 @@
+* {
+    margin-left: 5px;
+}
+
+.container-fluid {
+    margin-bottom: 20px;
+    display: flex;
+    align-items:center;
+    flex-direction:row;
+    width: 100%;
+}
+
+.btn-primary {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.progress {
+    padding: 10px;
+    margin-left: 10px;
+    width: 40%;
+    height: 35px;
+    float: right;
+}
+
+h5 {
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+      flex-direction: column; /* Coloca los elementos en columna */
+    }
+  
+   .card,.progress {
+      width: 100%; /* O cualquier otro ancho deseado */
+      margin-bottom: 10px; /* Agrega espaciado entre elementos */
+    }
+}

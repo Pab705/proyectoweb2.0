@@ -1,0 +1,52 @@
+ul li{
+    padding: 10px;
+    margin: 10px;
+    width: 480px;
+    height:auto;
+    display: flex;
+    color: aliceblue;
+}
+
+a.nav-link {
+    margin:10px;
+    padding-right:30%;
+}
+
+.offcanvas {
+    width: 280px;
+}
+
+.active{
+    background-color: #4285F4;
+    color: white;
+    padding-left: 15px;
+}
+
+.btn-group {
+    display: flex;
+    float: right;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+nav.navbar {
+    width: 5%;
+    float: left;
+}
+
+.container-fluid {
+    background-color: white;
+    padding: 0;
+    margin-left: 10px;
+}
+
+input.form {
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .btn-group{
+        width: 100%; /* O cualquier otro ancho deseado */
+        margin-bottom: 10px; /* Agrega espaciado entre elementos */    
+    }
+}

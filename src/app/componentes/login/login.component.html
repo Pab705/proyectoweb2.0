@@ -1,0 +1,60 @@
+<div class="container">
+    <img class="logo" src="assets/images/logo.png" alt="Logo" />
+</div>
+  
+<main class="container py-lg-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-8">
+            <div class="card" style="border-radius: 1rem">
+                <div class="card-body p-5 text-center">
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        <h2 class="fw-bold mb-2 text-uppercase">Iniciar sesión</h2>
+                        <h5 class="mb-4 mt-4">
+                            Sistema de reportes para el Programa de Doctorado de la Escuela de Informática PUCV
+                        </h5>
+                        <div class="row">
+                            <div class="col-12 col-lg-8">
+                                <div class="form-floating mb-4">
+                                    <input
+                                        type="text"
+                                        id="rut"
+                                        formControlName="username"
+                                        class="form-control"
+                                        [ngClass]="{'input-error': usernameError}"
+                                        placeholder="RUT (sin puntos, con guión)"
+                                        (input)="limpiarErrorFormato()"
+                                    />
+                                    <label for="rut">RUT (con puntos, con guión)</label>
+                                    <div *ngIf="usernameError" class="text-danger">Formato de RUT incorrecto.</div>
+                                    <div *ngIf="credencialesError" class="text-danger">Credenciales incorrectas. Inténtelo nuevamente.</div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                <div class="form-floating mb-4">
+                                    <input
+                                        type="password"
+                                        id="password"
+                                        formControlName="password"
+                                        class="form-control form-control-lg"
+                                        [ngClass]="{'input-error': passwordError}"
+                                        placeholder="Contraseña"
+                                    />
+                                    <label for="password">Contraseña</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-lg px-5 my-2" type="submit">
+                            <i class="iniciarSesion"></i>
+                            Iniciar sesión
+                        </button>
+                        <h6 class="mt-4 mb-2">
+                            <a href="/index.html">No tienes una cuenta aún? Regístrate aquí</a>
+                        </h6>
+                        <div id="social-login" class="d-flex justify-content-center text-center mt-4 mb-4 gap-5">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

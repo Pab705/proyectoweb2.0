@@ -1,0 +1,10 @@
+<div class="contenedor">
+  <div class="logo" routerLink="/resumen" routerLinkActive="active">
+      <img class="logo" src="../../../assets/images/logo.png"/>
+  </div>
+  <form (ngSubmit)="search()" class="d-flex">
+    <input [(ngModel)]="searchQuery" name="searchQuery" class="form-control me-2" type="search" placeholder="Buscar alumno" aria-label="Search">
+    <button (click)="irAresultados()" class="btn btn-outline-success" type="submit">Buscar</button>
+  </form>
+  <a (click)="logout()" class="btn btn-primary">Salir</a> 
+</div> 

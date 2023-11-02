@@ -1,0 +1,25 @@
+* {
+    margin: 5px;
+}
+ 
+img.logo {
+    width: 300px;
+    cursor: pointer;
+}
+
+.contenedor {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+      flex-direction: column; /* Coloca los elementos en columna */
+    }
+  
+    div.logo, form.d-flex {
+      width: 100%; /* O cualquier otro ancho deseado */
+      margin-bottom: 10px; /* Agrega espaciado entre elementos */
+    }
+}

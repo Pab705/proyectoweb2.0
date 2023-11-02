@@ -1,0 +1,43 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link actual" routerLink="/resumen" routerLinkActive="active">Resumen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/recursos" routerLinkActive="active">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/indicadores" routerLinkActive="active">Indicadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/comunidad" routerLinkActive="active">Comunidad</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<article>
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btnradio1">Últimos 10 Años</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btnradio2">Últimos 5 Años</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btnradio3">Último Año</label>
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" checked>
+    <label class="btn btn-outline-primary" for="btnradio4">Semestre Actual</label>
+  </div>
+</article>

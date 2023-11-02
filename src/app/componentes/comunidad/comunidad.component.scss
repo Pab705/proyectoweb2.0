@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+}
+
+td:hover {
+    background-color: #007bff !important;
+    color: #fff !important; 
+    transition: background-color 0.2s,color 0.2s;
+    cursor: pointer;
+  }
+
+@media (max-width: 768px) {
+    td{
+        font-size:x-small;   
+    }
+    img{
+        height:fit-content;
+        width:fit-content ;
+    }
+}
+

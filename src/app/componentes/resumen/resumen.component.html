@@ -1,0 +1,58 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Rut</th>
+        <th scope="col">Fecha ingreso al programa</th>
+        <th scope="col">Nacionalidad</th>
+        <th scope="col">Pregrado (Licenciatura, título)</th>
+        <th scope="col">Institución procedencia (Pregrado)</th>
+        <th scope="col">Postgrado (Magister, doctorado)</th>
+        <th scope="col">Examen de Candidatura</th>
+        <th scope="col">Examen de Grado</th>
+        <th scope="col">Estado de avance (Semestre)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of alumno" (click)="redirigirAPerfil(item.id)">
+        <td>{{ item.nombre }}</td>
+        <td>{{item.rut}}</td>
+        <td>{{ item.fechaIngreso }}</td>
+        <td>{{ item.nacionalidad }}</td>
+        <td>{{item.pregrado}}</td>
+        <td>{{item.instiPreg}}</td>
+        <td>{{item.postgrado}}</td>
+        <td>{{item.examenCand}}</td>
+        <td>{{item.examenGrado}}</td>
+        <td>{{item.semestre}}</td>
+      </tr>
+    </tbody>
+</table>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="../../../assets/images/grafico1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+          <img src="../../../assets/images/grafico2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+          <img src="../../../assets/images/grafico3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span>Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span>Next</span>
+  </button>
+</div>
+

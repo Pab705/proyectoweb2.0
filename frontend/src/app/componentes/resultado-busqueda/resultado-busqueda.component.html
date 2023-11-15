@@ -1,0 +1,36 @@
+  <div>
+    <h2>Resultados de la búsqueda</h2>
+    <button class="btn btn-outline-success" (click)="volver()">Volver</button>
+  
+    <div class="result-container">
+      <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Fecha ingreso al programa</th>
+                <th scope="col">Nacionalidad</th>
+                <th scope="col">Pregrado (Licenciatura, título)</th>
+                <th scope="col">Institución procedencia (Pregrado)</th>
+                <th scope="col">Postgrado (Magister, doctorado)</th>
+                <th scope="col">Institución procedencia (Postgrado)</th>
+                <th scope="col">Estado de avance (Semestre)</th>       
+            </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of resultados" (click)="redirigirAPerfil(item.id)">
+            <td>{{ item.nombre }}</td>
+            <td>{{ item.fechaIngreso }}</td>
+            <td>{{ item.nacionalidad }}</td>
+            <td>{{item.pregrado}}</td>
+            <td>{{item.instiPreg}}</td>
+            <td>{{item.postgrado}}</td>
+            <td>{{item.instiPost}}</td>
+            <td>{{item.semestre}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div *ngIf="resultados.length === 0">
+        <p>No se encontraron resultados.</p>
+    </div>
+  </div>

@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Fecha ingreso al programa</th>
+        <th scope="col">Institución procedencia (Pregrado)</th>
+        <th scope="col">Progreso del alumno</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of alumno" (click)="redirigirAPerfil(item.id)">
+        <td>{{ item.nombre }}</td>
+        <td>{{ item.fechaIngreso }}</td>
+        <td>{{ item.instiPreg }}</td>
+        <td><img [src]="'../../../assets/images/Comunidad-progressbar/'+item.id+'.png'" alt="progress-bar"></td>
+
+      </tr>
+    </tbody>

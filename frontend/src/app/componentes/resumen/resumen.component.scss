@@ -1,0 +1,28 @@
+* {
+    font-size: small;
+}
+
+span {
+    color: black;
+    background-color:rgb(45, 97, 192);
+}
+
+.carousel {
+    width: 30%;
+}
+td:hover {
+    background-color: #007bff !important;
+    color: #fff !important; 
+    transition: background-color 0.2s,color 0.2s;
+    cursor: pointer;
+  }
+
+@media (max-width: 768px) {
+    .carousel{
+        width: 100%; /* O cualquier otro ancho deseado */
+        margin-bottom: 10px; /* Agrega espaciado entre elementos */    
+    }
+    *{
+        font-size: x-small;
+    }
+}

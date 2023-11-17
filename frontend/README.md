@@ -48,6 +48,8 @@
 
 - [![bootstrap-badge]][bootstrap-web]
 - ![Angular CLI](https://img.shields.io/badge/Angular_CLI-16.2-brightgreen)
+- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+
 
 ## Archivos
 

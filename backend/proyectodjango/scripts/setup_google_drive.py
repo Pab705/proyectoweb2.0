@@ -1,5 +1,3 @@
-# proyectoweb2.0-master/backend/proyectodjango/scripts/setup_google_drive.py
-
 import os
 import subprocess
 

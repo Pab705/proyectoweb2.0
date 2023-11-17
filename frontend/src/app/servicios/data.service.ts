@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class DataService {
-  private baseUrl= 'http://localhost:8000/api/actualizar-datos/';
+  private baseUrl= 'http://localhost:8000/api/download-files/';
 
   constructor(private http: HttpClient) {}
 

@@ -18,7 +18,7 @@ def download_file(drive, file_id, destination_path):
 
 def main():
     drive = authenticate_google_drive()
-    folder_id = 'your_folder_id'  # Reemplaza 'your_folder_id' con el ID real de tu carpeta en Google Drive
+    folder_id = '1_5r2teMBl6uwRy9CrgqQypctAwt2Ril9'  #ID de carpeta en Google Drive
     files = list_files_in_folder(drive, folder_id)
     
     for file in files:

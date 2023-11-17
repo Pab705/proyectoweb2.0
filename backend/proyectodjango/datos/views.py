@@ -18,10 +18,13 @@ def download_files_view(request):
 def actualizar_datos(request):
     try:
         # Disparar la tarea Celery para descargar y actualizar los datos
-        result = download_files_task.delay()
+        #result = download_files_task.delay()
 
-        # Puedes devolver el ID de la tarea si es útil para el frontend
-        return JsonResponse({"status": "success", "task_id": result.id})
+        # Devolver el ID de la tarea si es útil para el frontend
+        #return JsonResponse({"status": "success", "task_id": result.id})
+    
+        download_google_drive_files()  # Lógica para descargar los archivos
+        return JsonResponse({'message': 'Datos actualizados exitosamente'})
     except Exception as e:
         return JsonResponse({"status": "error", "message": str(e)})
 

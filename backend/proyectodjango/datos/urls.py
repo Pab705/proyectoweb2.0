@@ -3,7 +3,8 @@ from .views import AlumnosList, PasantiasList, BecasList, EventosList, RecursosL
 
 urlpatterns = [
     path('', bienvenida, name='bienvenida'),
-    path('api/actualizar-datos/', actualizar_datos, name='actualizar-datos'),
+    path('api/download-files/', download_files_view, name='download-files'),
+    #path('api/actualizar-datos/', actualizar_datos, name='actualizar-datos'),
     path('api/alumnos/', AlumnosList.as_view(), name='alumnos-list'),
     path('api/alumnos/<int:pk>/', AlumnosDetalle.as_view(), name='alumnos-detalle'),
     path('api/pasantias/', PasantiasList.as_view(), name='pasantias-list'),
@@ -14,5 +15,4 @@ urlpatterns = [
     path('api/eventos/<int:pk>/', EventosDetalle.as_view(), name='eventos-detalle'),
     path('api/recursos/', RecursosList.as_view(), name='recursos-list'),
     path('api/recursos/<int:pk>/', RecursosDetalle.as_view(), name='recursos-detalle'),
-    path('api/download-files/', download_files_view, name='download-files'),
 ]

@@ -59,9 +59,9 @@
 
 1. Descargar el archivo `Proyectoweb2.0-master.zip` desde el repositorio de GitHub.
 2. Descomprimir el archivo, de preferencia en el escritorio.
-3. Abrir la carpeta `Proyecto-web-master` en Visual Studio Code.
+3. Abrir las carpetas `frontend` y `backend` en Visual Studio Code.
 4. Presionar las teclas <kbd>Ctrl</kbd> + <kbd>ñ</kbd> para abrir la terminal integrada de Visual Studio Code (también puede acceder presionando <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>, y escribiendo `terminal`).
-5. Instalar las dependencias de NPM con el comando:
+5. En /frontend, instalar las dependencias de NPM con el comando:
     ```bash
     npm install
     ```
@@ -69,7 +69,21 @@
     ```bash
     ng serve
     ```
-7. Credenciales para inicio de sesión
+7. En /backend, activar el entorno virtual con el comando:
+    ```bash
+    .\myenv\Scripts\activate
+    ```
+
+8. Situarse en la carpeta /proyectodjango e instalar las dependencias de requirements con los comandos:
+    ```bash
+    cd proyectodjango
+    pip install -r requirements.txt
+    ```
+9. Ejecutar el servidor con el comando:
+    ```bash
+    python manage.py runserver
+    ```
+10. Credenciales para inicio de sesión
  ```
       Usuario: 18.758.163-K
       Contraseña: contrasena

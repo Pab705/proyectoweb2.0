@@ -15,7 +15,7 @@
 
 ## Novedades
 
- Para la segunda entrega, se comenzó el proyecto de 0 para implementar el framework AngularCLI. Junto con ello, se implementaron las siguientes funcionalidades/componentes/servicios:
+- Se ha implementado el backend usando Django y una base de datos Sqlite. El propósito del backend es traer la data de los archivos excel alojados en la carpeta de drive para llenar las tablas y el archivo JSON, el cual será devuelto al frontend ante una http request en data.service.ts 
 
 - El sistema lee y trae información a las tablas en los diferentes componentes desde archivos JSON de forma dinámica (Actualmente está con archivos de prueba y datos ficticios).
 

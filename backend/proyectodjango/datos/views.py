@@ -99,6 +99,6 @@ class RecursosDetalle(generics.RetrieveUpdateDestroyAPIView):
 #celery_app.conf.timezone = 'UTC'
 
 # Otra vista para ejecutar manualmente la tarea
-def download_files_view(request):
-    download_files_task.apply_async()
-    return JsonResponse({'message': 'Descarga de archivos iniciada'})
+#def download_files_view(request):
+#    download_files_task.apply_async()
+#    return JsonResponse({'message': 'Descarga de archivos iniciada'})

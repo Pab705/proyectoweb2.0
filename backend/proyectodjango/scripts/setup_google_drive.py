@@ -3,7 +3,7 @@ import subprocess
 
 def setup_google_drive_credentials():
     script_directory = os.path.dirname(__file__)
-    credentials_path = os.path.join(script_directory, '..', 'credenciales', 'proyectotitulo-405204-059d73f3995b.json')
+    credentials_path = os.path.join(script_directory, '..', 'credenciales', 'client_secrets.json')
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
 
 def run_google_drive_manager():

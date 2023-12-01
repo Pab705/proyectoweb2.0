@@ -1,11 +1,11 @@
-from celery import shared_task
+#from celery import shared_task
 from scripts.google_drive_manager import main as download_google_drive_files
 import json
 from .models import Alumnos,Pasantias,Becas,Eventos,Recursos
 from django.conf import settings
 import os
 
-@shared_task
+#@shared_task
 def download_files_task():
     download_google_drive_files()
 

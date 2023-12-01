@@ -16,10 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from datos.views import bienvenida
+from datos.views import bienvenida, download_files_view  # Importa la vista download_files_view desde datos.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('datos/',include('datos.urls')),
-    path('',bienvenida, name='bienvenida'),
+    path('datos/', include('datos.urls')),  # Incluye las URLs de la aplicación 'datos'
+    path('api/download-files/', download_files_view, name='download-files'),  # Agrega la nueva ruta
+    path('', bienvenida, name='bienvenida'),
 ]

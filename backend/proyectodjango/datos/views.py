@@ -3,7 +3,7 @@ from .models import Alumnos, Pasantias, Becas, Eventos, Recursos
 from .serializers import AlumnosSerializer, PasantiasSerializer, BecasSerializer, EventosSerializer, RecursosSerializer
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-from celery import Celery
+#from celery import Celery
 from .tasks import download_files_task
 from scripts.google_drive_manager import main as download_google_drive_files
 
@@ -83,20 +83,20 @@ class RecursosDetalle(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = RecursosSerializer
 
 # Crea una instancia de Celery para usarla en el código
-celery_app = Celery('proyectodjango')
-celery_app.config_from_object('django.conf:settings', namespace='CELERY')
+#celery_app = Celery('proyectodjango')
+#celery_app.config_from_object('django.conf:settings', namespace='CELERY')
 
 # Agendar la tarea para que se ejecute cada día a las 2 AM (ajusta el cron según tus necesidades)
-celery_app.conf.beat_schedule = {
-    'download-files-every-day': {
-        'task': 'datos.tasks.download_files_task',
-        'schedule': 86400,  # Segundos en un día
-    },
-}
+#celery_app.conf.beat_schedule = {
+#    'download-files-every-day': {
+#        'task': 'datos.tasks.download_files_task',
+#        'schedule': 86400,  # Segundos en un día
+#    },
+#}
 
 # Inicia el beat scheduler de Celery (asegúrate de ejecutar también 'celery -A proyectodjango beat' en otra terminal)
-celery_app.conf.beat_schedule
-celery_app.conf.timezone = 'UTC'
+#celery_app.conf.beat_schedule
+#celery_app.conf.timezone = 'UTC'
 
 # Otra vista para ejecutar manualmente la tarea
 def download_files_view(request):

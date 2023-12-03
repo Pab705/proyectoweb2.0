@@ -54,7 +54,7 @@
 7. Credenciales para inicio de sesión
 7. En /backend, activar el entorno virtual con el comando:
     ```bash
-    .\myenv\Scripts\activate
+    .\myenv2\Scripts\activate
     ```
 8. Situarse en la carpeta /proyectodjango e instalar las dependencias de requirements con los comandos:
     ```bash

@@ -27,8 +27,11 @@
 - **Autor:** Patricio Ahumada Bonilla rut: 18.758.163-K
 - **Objetivo del proyecto:** El proyecto constará de un visualizador de información y estadísticas relevantes para el proceso de autoevaluación de postgrados, en el cual se examinan críticamente diferentes factores del programa (En este caso, de doctorados), para así poder destacar sus fortalezas y debilidades. El sistema recopilará y graficará el cruce de diversas fuentes de información manejada por el área docente y administrativa de la escuela; y mostrará las estadísticas requeridas por dichas áreas para facilitar así el desarrollo del informe de autoevaluación.
 ## Tecnologías utilizadas
-- [![bootstrap-badge]][bootstrap-web]
 - ![Angular CLI](https://img.shields.io/badge/Angular_CLI-16.2-brightgreen)
+- ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+- ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
+- ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+- ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ## Archivos
 | Título             | Tipo       | Archivo (link)                     |
 | ------------------ | --------   | ---------------------------------- |

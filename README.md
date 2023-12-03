@@ -1,5 +1,4 @@
 # "Sistema de Reportes para Programa Doctorado de Escuela de Informática de la PUCV"
-**INF3240 - Ingeniería Web**<br />
 **Escuela de Ingeniería Informática**<br />
 **Pontificia Universidad Católica de Valparaíso**
 <!-- omit in toc -->
@@ -22,7 +21,6 @@
 - El código está documentado en todos los servicios y casi todos los componentes, facilitando así el mantenimiento.
 -  Ahora se cuenta con seguridad implementada con angular reactive forms, que maneja el inicio de sesión, prohíbe el acceso a usuarios no autorizados a los componentes del sistema (Por ejemplo, mediante el url) y cuenta con un único usuario estático modificable (Por rut y contraseña). 
 ## Información general
-- **INF3240 - Ingeniería Web**<br />
 - **Escuela de Ingeniería Informática**<br />
 - **Pontificia Universidad Católica de Valparaíso**
 - **Temática:** Visualización de datos

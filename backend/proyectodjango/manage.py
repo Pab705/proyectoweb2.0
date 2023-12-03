@@ -1,6 +1,6 @@
 #!/usr/bin/env python 
 """
-ACTIVAR ENTORNO VIRTUAL .\myenv\Scripts\activate 
+ACTIVAR ENTORNO VIRTUAL .\myenv2\Scripts\activate 
 PARA INSTALAR DEPENDENCIAS, USAR: pip install -r requirements.txt
 MIGRAR CAMBIOS: - python manage.py makemigrations 
                 - python manage.py migrate 

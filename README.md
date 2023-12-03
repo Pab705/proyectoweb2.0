@@ -1,5 +1,4 @@
 # "Sistema de Reportes para Programa Doctorado de Escuela de Informática de la PUCV"
-**INF3240 - Ingeniería Web**<br />
 **Escuela de Ingeniería Informática**<br />
 **Pontificia Universidad Católica de Valparaíso**
 

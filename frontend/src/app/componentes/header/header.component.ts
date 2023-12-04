@@ -40,10 +40,10 @@ export class HeaderComponent {
   }
 
   downloadFiles(): void {
-    this.dataService.actualizarDatos().subscribe(
-      response => console.log(response),
-      error => console.error(error)
-    );
+    this.dataService.actualizarDatos().subscribe({
+      next: response => console.log(response),
+      error: error => console.error(error),
+      complete: () => console.log('Complete')
+    });
   }
-
 }

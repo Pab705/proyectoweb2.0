@@ -12,23 +12,30 @@
         </div>
       </div>
     </div>
-      <!--<h5>Estado de avance del alumno</h5>
-      <div class="card-body">
-        <h5 class="card-title">Estado de avance del alumno</h5>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" [style.width]="porcentajeAvance + '%'">
-            {{porcentajeAvance}}%
-          </div>
+    
+      <h5>Estado de Avance del Alumno:</h5>
+      <div class="progress">
+        <div
+          class="progress-bar-inner"
+          role="progressbar"
+          [style.width.%]="calcularProgreso(alumno)"
+          [style.backgroundColor]="calcularColor(alumno).barra"
+          aria-valuenow="0"
+          aria-valuemin="0"
+          aria-valuemax="100">
+          <h6>Avance curricular:</h6>
+          <p [style.color]="calcularColor(alumno).texto">{{ alumno.semestre }}
+            <span *ngIf="esProgramaExtendido(alumno)">EXTENDIDO</span>
+          </p>
+          <h6>Estado: </h6><p [style.color]="calcularColor(alumno).texto"> {{ alumno.estadoAvance }}</p>
+          <h6>
+            Exámenes:</h6>
+          <h6> Candidatura: </h6>
+          <p [style.color]="calcularColor(alumno).texto"> {{ alumno.examenCand }}</p>
+          <h6> Grado: </h6>
+          <p [style.color]="calcularColor(alumno).texto">{{ alumno.examenGrado }}</p>
         </div>
-        <p>Avance curricular: {{avanceCurricular}}</p>
-        <p>Semestre: {{semestre}}</p>
-        <p>Estado: {{estado}}</p>
-        <p>Hitos:</p>
-        <ul>
-          <li>Examen de candidatura: {{examenCandidatura}}</li>
-          <li>Examen de grado: {{examenGrado}}</li>
-        </ul>
-      </div>-->
+      </div>
   </div>
   <div class="container-fluid">
     <ul class="nav nav-underline">
@@ -54,32 +61,3 @@
   <router-outlet></router-outlet>
 </div>
 
-<!--<div class="card">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="ruta-de-la-imagen" alt="Imagen de retrato" class="card-img">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Nombre del Alumno</h5>
-        <p class="card-text">Información general sobre el alumno.</p>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Estado de avance del alumno</h5>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" [style.width]="porcentajeAvance + '%'">
-            {{porcentajeAvance}}%
-          </div>
-        </div>
-        <p>Avance curricular: {{avanceCurricular}}</p>
-        <p>Semestre: {{semestre}}</p>
-        <p>Estado: {{estado}}</p>
-        <p>Hitos:</p>
-        <ul>
-          <li>Examen de candidatura: {{examenCandidatura}}</li>
-          <li>Examen de grado: {{examenGrado}}</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>-->

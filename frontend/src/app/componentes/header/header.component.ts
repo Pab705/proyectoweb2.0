@@ -38,7 +38,7 @@ export class HeaderComponent {
     this.authService.logout(); // Llamamos al método logout del servicio
     this.router.navigate(['/login']); // Redirigimos al componente de inicio de sesión
   }
-
+/*
   downloadFiles(): void {
     this.dataService.actualizarDatos().subscribe({
       next: response => console.log(response),
@@ -46,4 +46,5 @@ export class HeaderComponent {
       complete: () => console.log('Complete')
     });
   }
+  */
 }

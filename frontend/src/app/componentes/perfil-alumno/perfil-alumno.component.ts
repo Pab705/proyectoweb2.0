@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from 'src/app/servicios/data.service';
 
@@ -14,6 +14,7 @@ export class PerfilAlumnoComponent implements OnInit{
   constructor(private route: ActivatedRoute, private dataService: DataService) {}
 
   ngOnInit() {
+    this.dataService.updateNavbarButtonGroupVisibility(false);
     this.route.paramMap.subscribe(params => {
       const idParam = params.get('id');
       if (idParam !== null) {
@@ -23,6 +24,10 @@ export class PerfilAlumnoComponent implements OnInit{
         });
       }
     });
+  }
+
+  ngOnDestroy(){
+    this.dataService.updateNavbarButtonGroupVisibility(true);
   }
 
   calcularProgreso(alumno: any): number {

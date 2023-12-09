@@ -11,9 +11,17 @@ export class DataService {
   private apiUrl= '../../assets/data/alumnos.json';
   private alumnosFiltradosSubject: Subject<any[]> = new Subject<any[]>();
   alumnosFiltrados$ = this.alumnosFiltradosSubject.asObservable();
+  private mostrarButtonGroup = true;
 
   constructor(private http: HttpClient) {}
 
+  updateNavbarButtonGroupVisibility(value: boolean) {
+    this.mostrarButtonGroup = value;
+  }
+
+  getNavbarButtonGroupVisibility(): boolean {
+    return this.mostrarButtonGroup;
+  }
 
   getData(): Observable<any[]> {
     //trae los datos del archivo json en la ruta definida (Implementar a futuro una ruta dinámica para manejar diferentes archivos)

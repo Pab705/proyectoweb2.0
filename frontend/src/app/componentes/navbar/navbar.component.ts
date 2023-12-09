@@ -9,6 +9,10 @@ import { DataService } from 'src/app/servicios/data.service';
 export class NavbarComponent {
   constructor(private dataService: DataService) {}
 
+  mostrarButtonGroup(): boolean {
+    return this.dataService.getNavbarButtonGroupVisibility();
+  }
+
   filtrarPorPeriodo(periodo: string) {
     this.dataService.filtrarPorPeriodo(periodo);
  

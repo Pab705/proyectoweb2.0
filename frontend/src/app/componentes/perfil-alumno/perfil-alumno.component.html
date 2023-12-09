@@ -13,7 +13,7 @@
       </div>
     </div>
     
-      <h5>Estado de Avance del Alumno:</h5>
+      <h4>Estado de Avance del Alumno:</h4>
       <div class="progress">
         <div
           class="progress-bar-inner"
@@ -28,11 +28,9 @@
             <span *ngIf="esProgramaExtendido(alumno)">EXTENDIDO</span>
           </p>
           <h6>Estado: </h6><p [style.color]="calcularColor(alumno).texto"> {{ alumno.estadoAvance }}</p>
-          <h6>
-            Exámenes:</h6>
-          <h6> Candidatura: </h6>
+          <h6> Examen de Candidatura: </h6>
           <p [style.color]="calcularColor(alumno).texto"> {{ alumno.examenCand }}</p>
-          <h6> Grado: </h6>
+          <h6>Examen de Grado: </h6>
           <p [style.color]="calcularColor(alumno).texto">{{ alumno.examenGrado }}</p>
         </div>
       </div>

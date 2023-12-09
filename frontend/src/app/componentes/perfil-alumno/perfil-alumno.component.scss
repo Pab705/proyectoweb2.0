@@ -43,20 +43,28 @@ span {
 
 .progress-bar-inner {
     display: flex;
-    flex-direction: row;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
-    //background-color: green; /* Color de relleno predeterminado */
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px; /* Añade márgenes internos alrededor de los elementos */
 }
 
 p {
     color: whitesmoke;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 5px;
+    flex:1;
+    margin-right: 20px;;
+    white-space: nowrap;
+
 }
+
+h6 {
+    flex: 1; /* Ocuparán el espacio disponible */
+    margin: 0; /* Elimina márgenes para un mejor ajuste */
+    text-align: center; /* Centra el texto */
+    white-space: nowrap; /* Evita el salto de línea en caso de texto largo */
+}
+
 
 .card-text {
     color: black;
@@ -71,12 +79,15 @@ h5 {
       flex-direction: column; /* Coloca los elementos en columna */
     }
   
-   .card,.progress {
+   .card,.progress,.progress-bar-inner {
       width: 100%; /* O cualquier otro ancho deseado */
       margin-bottom: 10px; /* Agrega espaciado entre elementos */
+      flex-wrap:wrap;
     }
 
     p,h6 {
-        font-size:x-small;
+        font-size:xx-small;
+        text-align: left;
+        width: 100%;
     }
 }

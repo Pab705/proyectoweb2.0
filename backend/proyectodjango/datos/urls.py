@@ -2,8 +2,8 @@ from django.urls import path
 from .views import AlumnosList, PasantiasList, BecasList, EventosList, RecursosList, AlumnosDetalle, PasantiasDetalle, BecasDetalle, EventosDetalle, RecursosDetalle, bienvenida, download_files_view, actualizar_datos
 
 urlpatterns = [
-    path('', bienvenida, name='bienvenida'),
-    path('api/download-files/', download_files_view, name='download-files'),
+    #path('', bienvenida, name='bienvenida'),
+    path('', download_files_view, name='download-files'),
     #path('api/actualizar-datos/', actualizar_datos, name='actualizar-datos'),
     path('api/alumnos/', AlumnosList.as_view(), name='alumnos-list'),
     path('api/alumnos/<int:pk>/', AlumnosDetalle.as_view(), name='alumnos-detalle'),

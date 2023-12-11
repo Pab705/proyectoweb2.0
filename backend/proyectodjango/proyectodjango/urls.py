@@ -21,6 +21,6 @@ from datos.views import bienvenida, download_files_view  # Importa la vista down
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('datos/', include('datos.urls')),  # Incluye las URLs de la aplicación 'datos'
-    path('api/download-files/', download_files_view, name='download-files'),  # Agrega la nueva ruta
-    path('', bienvenida, name='bienvenida'),
+    path('', download_files_view, name='download-files'),  # Agrega la nueva ruta
+    #path('', bienvenida, name='bienvenida'),
 ]

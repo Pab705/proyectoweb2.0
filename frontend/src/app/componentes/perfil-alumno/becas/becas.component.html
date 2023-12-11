@@ -1,37 +1,29 @@
 <h4>Reporte de asignaciones por concepto de beca a alumno</h4>
 <div>
-    <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Nombre del beneficio</th>
-            <th scope="col"></th>
-            <th scope="col">Año de Asignación</th>
-            <th scope="col"></th>
-          </tr>
-        </thead>
-        <tbody class="table-group-divider">
-          <tr>
-            <th scope="row"></th>
-            <td>2019</td>
-            <td>2020</td>
-            <td>2021</td>
-          </tr>
-          <tr>
-            <th scope="row">Beca manutención ANID</th>
-            <td>$3.000.000</td>
-            <td>$3.000.000</td>
-            <td>$3.000.000</td>
-          </tr>
-          <tr>
-            <th scope="row">Total</th>
-            <td colspan="2">$9.000.000</td>
-            <td></td>
-          </tr>
-        </tbody>
-    </table>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nombre del beneficio</th>
+        <th scope="col">Año de Asignación</th>
+        <th scope="col">Recursos Asignados</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let beca of becas">
+        <td>{{ beca.nombreBeneficio }}</td>
+        <td>{{ beca.anioAsnignacion }}</td>
+        <td>{{ beca.recursosAsignados }}</td>
+      </tr>
+      <tr>
+        <td><strong>Total</strong></td>
+        <td></td>
+        <td>${{ formatearNumero(totalRecursos) }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 <div class="grid-container">
-    <img src="../../../../assets/images/perfil/becas/1.png">
-    <img src="../../../../assets/images/perfil/becas/2.png">  
+  <img src="../../../../assets/images/perfil/becas/1.png">
+  <img src="../../../../assets/images/perfil/becas/2.png">  
 </div>  
 <router-outlet></router-outlet>

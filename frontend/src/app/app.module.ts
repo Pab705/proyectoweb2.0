@@ -27,7 +27,7 @@ import { AuthService } from './servicios/auth.service';
 import { AuthGuard } from './auth.guard';
 import { CommonLayoutComponent } from './common-layout/common-layout.component';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import Chart from 'chart.js/auto';
 
 @NgModule({
   declarations: [

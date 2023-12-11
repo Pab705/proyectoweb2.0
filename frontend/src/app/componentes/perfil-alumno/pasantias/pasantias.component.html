@@ -11,29 +11,13 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>23-05-22 - 23-12-23</td>
-        <td>Universidad de Oviedo - España</td>
-        <td>17 meses</td>
-        <td>$12.000.000</td>
-        <td>Wenceslao Palma Muñoz</td>
-        <td>Alberto Zapata Correa</td>
-      </tr>
-      <tr>
-        <td>23-05-22 - 23-12-23</td>
-        <td>Universidad de Oviedo - España</td>
-        <td>17 meses</td>
-        <td>$13.000.000</td>
-        <td>Wenceslao Palma Muñoz</td>
-        <td>Alberto Zapata Correa</td>
-      </tr>
-      <tr>
-        <td>23-05-22 - 23-12-23</td>
-        <td>Universidad de Oviedo - España</td>
-        <td>17 meses</td>
-        <td>$10.000.000</td>
-        <td>Wenceslao Palma Muñoz</td>
-        <td>Alberto Zapata Correa</td>
+      <tr *ngFor="let pasantia of alumnoPasantias">
+        <td>{{pasantia.fechaInicio}} - {{pasantia.fechaTermino}}</td>
+        <td>{{pasantia.instiBenef}}</td>
+        <td>{{pasantia.duracion}}</td>
+        <td>{{pasantia.recursosAsignados}}</td>
+        <td>{{pasantia.profOrigen}}</td>
+        <td>{{pasantia.profDestino}}</td>
       </tr>
     </tbody>
 </table>

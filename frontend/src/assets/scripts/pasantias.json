@@ -1,110 +1,120 @@
 [
     {
-        "id":"1",
+        "idAlumno":1,
         "profDestino":"Sandra Calvo",
         "profOrigen":"Wenceslao Palma",
         "fechaInicio":"21/03/15",
         "fechaTermino":"30/03/16",
-        "recursos":"$ 9.564.123",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 9.564.123",
         "beneficios":"Pasantías VRIEA",
         "instiBenef":"VRIEA"
 
     },
     {
-        "id":"2",
+        "idAlumno":2,
         "profDestino":"Xavier Parra",
         "profOrigen":"Sandra Cano",
         "fechaInicio":"21/03/19",
         "fechaTermino":"30/03/20",
-        "recursos":"$ 4.135.485",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 4.135.485",
         "beneficios":"Término de tesis VRIEA",
         "instiBenef":"VRIEA"
 
     },
     {
-        "id":"3",
+        "idAlumno":3,
         "profDestino":"Javier Alonso",
         "profOrigen":"Rafael Mellado",
         "fechaInicio":"21/03/17",
         "fechaTermino":"30/03/18",
-        "recursos":"$ 8.153.123",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 8.153.123",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 
     },
     {
-        "id":"4",
+        "idAlumno":4,
         "profDestino":"Catalina Suarez",
         "profOrigen":"Broderick Crawford",
         "fechaInicio":"21/03/20",
         "fechaTermino":"30/03/21",
-        "recursos":"$ 13.456.213",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 13.456.213",
         "beneficios":"Pasantías VRIEA",
         "instiBenef":"VRIEA"
 
     },
     {
-        "id":"5",
+        "idAlumno":5,
         "profDestino":"Rasmus Bergström",
         "profOrigen":"Ricardo Soto",
         "fechaInicio":"21/03/20",
         "fechaTermino":"30/03/21",
-        "recursos":"$ 10.153.213",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 10.153.213",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 
     },
     {
-        "id":"6",
+        "idAlumno":6,
         "profDestino":"Tina Olofsson",
         "profOrigen":"Daniela Quiñones",
         "fechaInicio":"21/03/19",
         "fechaTermino":"30/03/20",
-        "recursos":"$ 7.564.312",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 7.564.312",
         "beneficios":"Pasantías VRIEA",
         "instiBenef":"VRIEA"
 
     },
     {
-        "id":"7",
+        "idAlumno":7,
         "profDestino":"Léonie Robert",
         "profOrigen":"Leslie Pérez",
         "fechaInicio":"21/03/16",
         "fechaTermino":"30/03/17",
-        "recursos":"$ 7.536.654",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 7.536.654",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 
     },
     {
-        "id":"8",
+        "idAlumno":8,
         "profDestino":"Patrick Hall",
         "profOrigen":"Wenceslao Palma",
         "fechaInicio":"21/03/15",
         "fechaTermino":"30/03/16",
-        "recursos":"$ 8.346.489",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 8.346.489",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 
     },
     {
-        "id":"9",
+        "idAlumno":9,
         "profDestino":"Lydia Fowler",
         "profOrigen":"Sandra Cano",
         "fechaInicio":"21/03/18",
         "fechaTermino":"30/03/19",
-        "recursos":"$ 7.534.354",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 7.534.354",
         "beneficios":"Pasantías VRIEA",
         "instiBenef":"INF PUCV"
 
     },
     {
-        "id":"10",
+        "idAlumno":10,
         "profDestino":"Ethan Evans",
         "profOrigen":"Rafael Mellado",
         "fechaInicio":"21/03/20",
         "fechaTermino":"30/03/21",
-        "recursos":"$ 5.156.213",
+        "duracion":"1 año",
+        "recursosAsignados":"$ 5.156.213",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 

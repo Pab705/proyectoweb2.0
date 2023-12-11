@@ -7,31 +7,26 @@
         <th scope="col">Nombre encargado (Destino)</th>
         <th scope="col">País</th>
         <th scope="col">Recursos asignados para asistencia a evento</th>
+        <th scope="col">Institución beneficiaria</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody *ngFor="let evento of eventos">
       <tr>
-        <td>23-05-22 - 23-12-23</td>
-        <td>Ricardo Soto</td>
-        <td>José Fuenzalida</td>
-        <td>España (Andorra)</td>
-        <td>$ 2.132.456</td>
-      </tr>
-      <tr>
-        <td>23-05-22 - 23-12-23</td>
-        <td>Sandra Cano</td>
-        <td>John Dwight</td>
-        <td>E.E.U.U (Phoenix)</td>
-        <td>$ 2.546.213</td>
-      </tr>
-      <tr>
-        <td>23-05-22 - 23-12-23</td>
-        <td>Wenceslao Palma</td>
-        <td>Paulie Gualtieri</td>
-        <td>Italia (Roma)</td>
-        <td>$ 1.534.683</td>
+        <td>{{evento.anioAsnignacion}}</td>
+        <td>{{evento.profOrigen}}</td>
+        <td>{{evento.profDestino}}</td>
+        <td>{{evento.paisDestino}}</td>
+        <td>{{evento.recursosAsignados}}</td>
+        <td>{{evento.nombreBeneficio}}</td>
       </tr>
     </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4"><strong>Total</strong></td>
+        <td>${{formatearNumero(totalRecursos) }}</td>
+        <td></td>
+      </tr>
+    </tfoot>
 </table>
 <div class="grid-container">
     <img src="../../../../assets/images/perfil/eventos/1.png">

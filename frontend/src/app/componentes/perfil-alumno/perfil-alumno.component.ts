@@ -1,14 +1,14 @@
-import { Component, OnInit, OnDestroy} from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from 'src/app/servicios/data.service';
 
 @Component({
   selector: 'app-perfil-alumno',
   templateUrl: './perfil-alumno.component.html',
-  styleUrls: ['./perfil-alumno.component.scss']
+  styleUrls: ['./perfil-alumno.component.scss'],
 })
 export class PerfilAlumnoComponent implements OnInit{
-
+  alumnoId: number | undefined;
   alumno: any; // Usar 'alumno' en lugar de 'alumnoId'
 
   constructor(private route: ActivatedRoute, private dataService: DataService) {}

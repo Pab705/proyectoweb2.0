@@ -1,0 +1,902 @@
+[
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$5.830.592",
+		"anioAsnignacion": 2024,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Reece Webb",
+		"paisDestino": "Singapore"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$7.731.859",
+		"anioAsnignacion": 2019,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Bell Avila",
+		"paisDestino": "Singapore"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$603.034",
+		"anioAsnignacion": 2022,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Russell Osborn",
+		"paisDestino": "Spain"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$1.638.637",
+		"anioAsnignacion": 2019,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Phyllis Savage",
+		"paisDestino": "Belgium"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$9.259.621",
+		"anioAsnignacion": 2013,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Flavia Henson",
+		"paisDestino": "Singapore"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$5.729.125",
+		"anioAsnignacion": 2019,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Zephr Suarez",
+		"paisDestino": "Australia"
+	},
+	{
+		"idAlumno": 5,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$4.225.286",
+		"anioAsnignacion": 2014,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Travis Snow",
+		"paisDestino": "Mexico"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$9.564.770",
+		"anioAsnignacion": 2014,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Emery Beach",
+		"paisDestino": "China"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$2.216.926",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Shelby Small",
+		"paisDestino": "South Korea"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$7.598.134",
+		"anioAsnignacion": 2016,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Alden Aguilar",
+		"paisDestino": "Sweden"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$7.357.477",
+		"anioAsnignacion": 2019,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Cara Mcclure",
+		"paisDestino": "Germany"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$9.839.351",
+		"anioAsnignacion": 2017,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Alvin Leblanc",
+		"paisDestino": "Pakistan"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$119.644",
+		"anioAsnignacion": 2013,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Shelley Lloyd",
+		"paisDestino": "Chile"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$9.509.704",
+		"anioAsnignacion": 2016,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Noble Hester",
+		"paisDestino": "Vietnam"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$5.241.468",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Sarah Walters",
+		"paisDestino": "Chile"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$810.936",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Constance Guthrie",
+		"paisDestino": "Chile"
+	},
+	{
+		"idAlumno": 5,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$4.109.515",
+		"anioAsnignacion": 2014,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Sara Baird",
+		"paisDestino": "Australia"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$8.390.156",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Tanner Wilkins",
+		"paisDestino": "Belgium"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$9.213.775",
+		"anioAsnignacion": 2015,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Wayne Parsons",
+		"paisDestino": "Chile"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$1.357.840",
+		"anioAsnignacion": 2019,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Sebastian Caldwell",
+		"paisDestino": "Pakistan"
+	},
+	{
+		"idAlumno": 10,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$3.682.472",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Denton Holder",
+		"paisDestino": "Sweden"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$5.913.659",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Kylie Fitzgerald",
+		"paisDestino": "Brazil"
+	},
+	{
+		"idAlumno": 10,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$4.713.607",
+		"anioAsnignacion": 2014,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Latifah Small",
+		"paisDestino": "Austria"
+	},
+	{
+		"idAlumno": 9,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$67.028",
+		"anioAsnignacion": 2020,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Ralph Lewis",
+		"paisDestino": "Brazil"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$9.048.829",
+		"anioAsnignacion": 2020,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Hedley Nunez",
+		"paisDestino": "United Kingdom"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$252.498",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Dillon Cherry",
+		"paisDestino": "Pakistan"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$2.637.453",
+		"anioAsnignacion": 2014,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Patricia Horn",
+		"paisDestino": "Indonesia"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$2.051.866",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Keelie Alexander",
+		"paisDestino": "Belgium"
+	},
+	{
+		"idAlumno": 5,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$1.954.846",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Erica Zimmerman",
+		"paisDestino": "Peru"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$6.472.206",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Xaviera Gillespie",
+		"paisDestino": "Sweden"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$9.891.278",
+		"anioAsnignacion": 2024,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Chiquita Beach",
+		"paisDestino": "Sweden"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$7.249.929",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Sylvester Cain",
+		"paisDestino": "Turkey"
+	},
+	{
+		"idAlumno": 10,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$851.118",
+		"anioAsnignacion": 2022,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Reuben Mccall",
+		"paisDestino": "Indonesia"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$7.295.707",
+		"anioAsnignacion": 2011,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Maisie Erickson",
+		"paisDestino": "Canada"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$7.393.440",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Olivia Gardner",
+		"paisDestino": "Canada"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$6.757.497",
+		"anioAsnignacion": 2024,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Ronan Dickerson",
+		"paisDestino": "New Zealand"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$651.022",
+		"anioAsnignacion": 2020,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Nicholas Terrell",
+		"paisDestino": "Indonesia"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$2.921.551",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Dalton Mosley",
+		"paisDestino": "Belgium"
+	},
+	{
+		"idAlumno": 9,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$9.654.878",
+		"anioAsnignacion": 2022,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Jameson Simon",
+		"paisDestino": "Chile"
+	},
+	{
+		"idAlumno": 2,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$8.549.446",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Ross Bartlett",
+		"paisDestino": "Poland"
+	},
+	{
+		"idAlumno": 10,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$373.902",
+		"anioAsnignacion": 2024,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Lacota Johns",
+		"paisDestino": "Canada"
+	},
+	{
+		"idAlumno": 9,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$1.761.132",
+		"anioAsnignacion": 2013,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Danielle Morton",
+		"paisDestino": "Costa Rica"
+	},
+	{
+		"idAlumno": 5,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$5.499.716",
+		"anioAsnignacion": 2022,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Linda Levine",
+		"paisDestino": "South Africa"
+	},
+	{
+		"idAlumno": 9,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$8.186.235",
+		"anioAsnignacion": 2013,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Tatyana Eaton",
+		"paisDestino": "Germany"
+	},
+	{
+		"idAlumno": 2,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$9.102.121",
+		"anioAsnignacion": 2015,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Shafira Ruiz",
+		"paisDestino": "Austria"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$1.309.799",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Harper Ross",
+		"paisDestino": "Philippines"
+	},
+	{
+		"idAlumno": 2,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$8.969.666",
+		"anioAsnignacion": 2024,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Jayme Rosa",
+		"paisDestino": "Singapore"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$3.250.735",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Sophia Cleveland",
+		"paisDestino": "Singapore"
+	},
+	{
+		"idAlumno": 9,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$3.061.316",
+		"anioAsnignacion": 2013,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Abigail Villarreal",
+		"paisDestino": "South Korea"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$6.312.136",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Ali Ward",
+		"paisDestino": "Russian Federation"
+	},
+	{
+		"idAlumno": 2,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$1.183.616",
+		"anioAsnignacion": 2014,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Kenyon Cervantes",
+		"paisDestino": "South Africa"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$3.187.467",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Daryl Kelly",
+		"paisDestino": "Canada"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$3.479.133",
+		"anioAsnignacion": 2015,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Jared Daniel",
+		"paisDestino": "United Kingdom"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$6.057.014",
+		"anioAsnignacion": 2016,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Cheyenne Leblanc",
+		"paisDestino": "United States"
+	},
+	{
+		"idAlumno": 5,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$4.135.365",
+		"anioAsnignacion": 2024,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Seth Holcomb",
+		"paisDestino": "Norway"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$5.259.757",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Stephanie Bean",
+		"paisDestino": "Costa Rica"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$4.140.971",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Dai Houston",
+		"paisDestino": "Norway"
+	},
+	{
+		"idAlumno": 2,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$2.405.622",
+		"anioAsnignacion": 2016,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Patrick Alvarez",
+		"paisDestino": "Poland"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$9.100.106",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Nathaniel Hendricks",
+		"paisDestino": "New Zealand"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$7.645.272",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Victoria Huffman",
+		"paisDestino": "Indonesia"
+	},
+	{
+		"idAlumno": 5,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$3.137.532",
+		"anioAsnignacion": 2023,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Vivian Christensen",
+		"paisDestino": "Costa Rica"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$4.282.381",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Dorian Hatfield",
+		"paisDestino": "Ukraine"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$9.102.713",
+		"anioAsnignacion": 2020,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Cleo Townsend",
+		"paisDestino": "Vietnam"
+	},
+	{
+		"idAlumno": 2,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$513.565",
+		"anioAsnignacion": 2013,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Shannon Morales",
+		"paisDestino": "South Korea"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$3.821.365",
+		"anioAsnignacion": 2016,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Pearl Montgomery",
+		"paisDestino": "Turkey"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$6.520.988",
+		"anioAsnignacion": 2011,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Cecilia Shepherd",
+		"paisDestino": "Germany"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$1.090.481",
+		"anioAsnignacion": 2022,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Grace Olson",
+		"paisDestino": "Nigeria"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$662.551",
+		"anioAsnignacion": 2015,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Beck Hurst",
+		"paisDestino": "Pakistan"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$4.486.535",
+		"anioAsnignacion": 2020,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Alden Olson",
+		"paisDestino": "Turkey"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$3.273.082",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Deborah Levy",
+		"paisDestino": "Costa Rica"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$4.387.017",
+		"anioAsnignacion": 2023,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Anne Hayden",
+		"paisDestino": "Australia"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$1.104.635",
+		"anioAsnignacion": 2020,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Brenna Mccoy",
+		"paisDestino": "Colombia"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$76.640",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Yolanda Willis",
+		"paisDestino": "Vietnam"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$1.439.456",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Aline Frank",
+		"paisDestino": "New Zealand"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$3.675.454",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Alec Hale",
+		"paisDestino": "United States"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$9.881.865",
+		"anioAsnignacion": 2016,
+		"profOrigen": "Daniela Quiñones",
+		"profDestino": "Dale Reid",
+		"paisDestino": "China"
+	},
+	{
+		"idAlumno": 5,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$5.447.562",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Emmanuel Hinton",
+		"paisDestino": "Ukraine"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$8.982.303",
+		"anioAsnignacion": 2023,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Julie Craig",
+		"paisDestino": "South Africa"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$7.605.566",
+		"anioAsnignacion": 2016,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Lester Stephenson",
+		"paisDestino": "China"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$6.626.315",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Joy Hudson",
+		"paisDestino": "South Africa"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$9.225.325",
+		"anioAsnignacion": 2020,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Tamekah Hooper",
+		"paisDestino": "Indonesia"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$14.697",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Hillary Velazquez",
+		"paisDestino": "Colombia"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$9.383.853",
+		"anioAsnignacion": 2019,
+		"profOrigen": "Ricardo Soto",
+		"profDestino": "Bert Becker",
+		"paisDestino": "Norway"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$7.667.632",
+		"anioAsnignacion": 2013,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Kennedy Conley",
+		"paisDestino": "Chile"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$154.624",
+		"anioAsnignacion": 2022,
+		"profOrigen": "Rafael Mellado",
+		"profDestino": "Charles Foster",
+		"paisDestino": "Turkey"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$8.164.708",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Nathaniel Bray",
+		"paisDestino": "United Kingdom"
+	},
+	{
+		"idAlumno": 2,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$6.710.362",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Ralph Bartlett",
+		"paisDestino": "China"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$9.015.291",
+		"anioAsnignacion": 2013,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Cheryl Romero",
+		"paisDestino": "Spain"
+	},
+	{
+		"idAlumno": 3,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$6.404.027",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Brian Jackson",
+		"paisDestino": "Ukraine"
+	},
+	{
+		"idAlumno": 2,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$8.708.578",
+		"anioAsnignacion": 2019,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Asher O'brien",
+		"paisDestino": "Turkey"
+	},
+	{
+		"idAlumno": 9,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$2.558.688",
+		"anioAsnignacion": 2011,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Catherine Snow",
+		"paisDestino": "Norway"
+	},
+	{
+		"idAlumno": 4,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$3.175.735",
+		"anioAsnignacion": 2018,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Nichole Booker",
+		"paisDestino": "Indonesia"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$2.891.143",
+		"anioAsnignacion": 2023,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Valentine Pennington",
+		"paisDestino": "Indonesia"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$7.601.307",
+		"anioAsnignacion": 2015,
+		"profOrigen": "Wenceslao Palma",
+		"profDestino": "Quentin Juarez",
+		"paisDestino": "India"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$8.749.107",
+		"anioAsnignacion": 2015,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Quintessa Edwards",
+		"paisDestino": "Peru"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Evento científico INF:",
+		"recursosAsignados": "$3.399.975",
+		"anioAsnignacion": 2021,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Trevor Andrews",
+		"paisDestino": "Nigeria"
+	},
+	{
+		"idAlumno": 7,
+		"nombreBeneficio": "Evento científico VRIEA",
+		"recursosAsignados": "$630.060",
+		"anioAsnignacion": 2022,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Nevada Porter",
+		"paisDestino": "Sweden"
+	},
+	{
+		"idAlumno": 8,
+		"nombreBeneficio": "Pasantía INF:",
+		"recursosAsignados": "$2.078.042",
+		"anioAsnignacion": 2014,
+		"profOrigen": "Leslie Pérez",
+		"profDestino": "Gillian Sanford",
+		"paisDestino": "Spain"
+	},
+	{
+		"idAlumno": 1,
+		"nombreBeneficio": "Pasantías VRIEA:",
+		"recursosAsignados": "$493.690",
+		"anioAsnignacion": 2012,
+		"profOrigen": "Sandra Cano",
+		"profDestino": "Rinah Sheppard",
+		"paisDestino": "Colombia"
+	},
+	{
+		"idAlumno": 6,
+		"nombreBeneficio": "Término de tesis VRIEA",
+		"recursosAsignados": "$1.659.887",
+		"anioAsnignacion": 2010,
+		"profOrigen": "Broderick Crawford",
+		"profDestino": "Pamela Orr",
+		"paisDestino": "Ireland"
+	}
+]

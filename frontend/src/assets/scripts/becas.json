@@ -1,0 +1,62 @@
+[
+	{
+        "idAlumno":1,
+		"nombreBeneficio": "Beca de manutención ANID",
+		"recursosAsignados": "$8.541.096",
+		"anioAsnignacion": 2018
+	},
+	{
+        "idAlumno":2,
+		"nombreBeneficio": "Beca de Arancel INF",
+		"recursosAsignados": "$6.663.154",
+		"anioAsnignacion": 2011
+	},
+	{
+        "idAlumno":3,
+		"nombreBeneficio": "Beca Mantención VRIEA",
+		"recursosAsignados": "$3.960.414",
+		"anioAsnignacion": 2020
+	},
+	{
+        "idAlumno":4,
+		"nombreBeneficio": "Beca Mantención VRIEA",
+		"recursosAsignados": "$8.242.317",
+		"anioAsnignacion": 2016
+	},
+	{
+        "idAlumno":5,
+		"nombreBeneficio": "Beca de Arancel INF",
+		"recursosAsignados": "$2.369.983",
+		"anioAsnignacion": 2017
+	},
+	{
+        "idAlumno":6,
+		"nombreBeneficio": "Beca Mantención VRIEA",
+		"recursosAsignados": "$8.631.443",
+		"anioAsnignacion": 2015
+	},
+	{
+        "idAlumno":7,
+		"nombreBeneficio": "Beca Mantención VRIEA",
+		"recursosAsignados": "$734.887",
+		"anioAsnignacion": 2018
+	},
+	{
+        "idAlumno":8,
+		"nombreBeneficio": "Beca de Arancel INF",
+		"recursosAsignados": "$3.763.866",
+		"anioAsnignacion": 2019
+	},
+	{
+        "idAlumno":9,
+		"nombreBeneficio": "Beca Mantención INF",
+		"recursosAsignados": "$9.049.267",
+		"anioAsnignacion": 2011
+	},
+	{
+        "idAlumno":10,
+		"nombreBeneficio": "Beca de Arancel INF",
+		"recursosAsignados": "$3.543.027",
+		"anioAsnignacion": 2010
+	}
+]

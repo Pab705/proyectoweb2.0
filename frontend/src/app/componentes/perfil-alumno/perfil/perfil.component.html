@@ -11,18 +11,20 @@
           <th scope="col">Postgrado (Magister, doctorado)</th>
           <th scope="col">Institución procedencia (Postgrado)</th>
           <th scope="col">Estado de avance (Semestre)</th>
+          <th scope="col">Última Matrícula</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody *ngIf="alumno">
         <tr>
-          <td>Camila Andrea Bascur Barrera</td>
-          <td>2020-1 (Semestre)</td>
-          <td>Chileno</td>
-          <td>Ingeniería Ejecución Informática</td>
-          <td>PUCV</td>
-          <td>-</td>
-          <td>-</td>
-          <td>4/8</td>
+          <td>{{alumno.nombre}}</td>
+          <td>{{alumno.fechaIngreso}}</td>
+          <td>{{alumno.nacionalidad}}</td>
+          <td>{{alumno.pregrado}}</td>
+          <td>{{alumno.instiPreg}}</td>
+          <td>{{alumno.postgrado}}</td>
+          <td>{{alumno.instiPost}}</td>
+          <td>{{alumno.semestre}}</td>
+          <td>{{alumno.ultimaMatricula}}</td>
         </tr>
       </tbody>
   </table>

@@ -3,6 +3,7 @@
 }
 
 .container-fluid {
+    margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     align-items:center;
@@ -25,8 +26,9 @@ div.progress-bar {
 */
 
 .card {
-    position:sticky;
+    position:relative;
     width:auto;
+    margin-right: 30px;
 }
 
 span {
@@ -34,6 +36,7 @@ span {
 }
 
 .progress {
+    margin-top: 20px;
     position:relative;
     height: auto; /* Ajusta la altura según el contenido */
     width: auto; /* Ancho total */
@@ -56,6 +59,16 @@ p {
     margin-right: 20px;;
     white-space: nowrap;
 
+}
+
+h4 {
+    position: absolute;
+    top: 190px;
+    left: 20%;
+    width: 30%;
+    text-align: center;
+    margin: 1 auto;
+    margin-bottom: 10px;
 }
 
 h6 {
@@ -85,6 +98,10 @@ h5 {
       flex-wrap:wrap;
     }
 
+    h4 {
+        position: static;
+        margin-bottom: 10px;
+    }
     p,h6 {
         font-size:xx-small;
         text-align: left;

@@ -2,3 +2,25 @@
     margin-bottom: 40px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de tamaño igual */
+    gap: 20px; /* Espacio entre los gráficos */
+  }
+  
+  .canvas-container {
+    width: 80%; /* Asegura que el canvas ocupe todo su contenedor */
+    margin-bottom: 20px; /* Espacio entre cada gráfico */
+  }
+
+  
+/* Media Query para ajustar a pantallas más pequeñas */
+@media (max-width: 768px) {
+    .grid-container {
+      width: 100%;
+      grid-template-columns: repeat(1, 1fr); /* Cambia a una columna en pantallas pequeñas */
+    }
+    .canvas-container {
+        width: 100%;
+    }
+}

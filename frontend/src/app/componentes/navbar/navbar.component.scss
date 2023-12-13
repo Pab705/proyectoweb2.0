@@ -38,12 +38,16 @@ nav.navbar {
     background-color: white;
     padding: 0;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 input.form {
     width: 300px;
 }
 
+h5 {
+    margin-right: 10px;
+}
 @media (max-width: 768px) {
     .btn-group{
         width: 100%; /* O cualquier otro ancho deseado */

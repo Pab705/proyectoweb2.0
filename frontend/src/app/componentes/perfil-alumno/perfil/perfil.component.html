@@ -9,9 +9,10 @@
           <th scope="col">Pregrado (Licenciatura, título)</th>
           <th scope="col">Institución procedencia (Pregrado)</th>
           <th scope="col">Postgrado (Magister, doctorado)</th>
-          <th scope="col">Institución procedencia (Postgrado)</th>
+          <th scope="col">Profesor Guía</th>
           <th scope="col">Estado de avance (Semestre)</th>
           <th scope="col">Última Matrícula</th>
+          <th scope="col">Cotutela</th>
         </tr>
       </thead>
       <tbody *ngIf="alumno">
@@ -22,13 +23,32 @@
           <td>{{alumno.pregrado}}</td>
           <td>{{alumno.instiPreg}}</td>
           <td>{{alumno.postgrado}}</td>
-          <td>{{alumno.instiPost}}</td>
+          <td>{{alumno.profGuia}}</td>
           <td>{{alumno.semestre}}</td>
           <td>{{alumno.ultimaMatricula}}</td>
+          <td>{{alumno.cotutela}}</td>
         </tr>
       </tbody>
   </table>
 </div>
+<!--<div class="grid-container">
+  <div class="canvas-container">
+    <h3>Recursos Totales Asignados:</h3>
+    <canvas #recursosPorAnioCanvas width="400" height="200"></canvas>
+</div>
+  <div class="canvas-container">
+          <h3>Recursos Asignados a Becas:</h3>
+          <canvas #becasCanvas width="400" height="200"></canvas>
+  </div>
+  <div class="canvas-container">
+          <h3>Recursos Asignados a Pasantías:</h3>
+          <canvas #pasantiasCanvas width="400" height="200"></canvas>
+  </div>
+  <div class="canvas-container">
+          <h3>Recursos Asignados a Eventos:</h3>
+          <canvas #eventosCanvas width="400" height="200"></canvas>
+  </div>
+</div>-->
   <div class="grid-container">
       <img src="../../../../assets/images/perfil/perfil/Captura de pantalla 2023-10-28 174346.png">
       <img src="../../../../assets/images/perfil/perfil/Captura de pantalla 2023-10-28 174507.png">  

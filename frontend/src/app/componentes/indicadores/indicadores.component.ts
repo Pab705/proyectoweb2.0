@@ -23,6 +23,7 @@ export class IndicadoresComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
+    this.dataService.updateNavbarButtonGroupVisibility(false);
     this.dataService.getData().subscribe(
       (alumnos) => {
         this.alumnos = alumnos;

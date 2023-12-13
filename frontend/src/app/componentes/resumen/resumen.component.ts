@@ -20,6 +20,7 @@ export class ResumenComponent implements OnInit,OnDestroy{
   }
 
   ngOnInit() {
+    this.dataService.updateNavbarButtonGroupVisibility(true);
     this.dataService.filtrarPorPeriodo('semestreActual'); // Filtrar por este semestre por defecto
     this.alumnosFiltradosSubscription = this.dataService.alumnosFiltrados$.subscribe(
       (alumnosFiltrados) => {

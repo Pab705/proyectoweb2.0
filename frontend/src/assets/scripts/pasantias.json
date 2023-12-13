@@ -7,6 +7,7 @@
         "fechaTermino":"30/03/16",
         "duracion":"1 año",
         "recursosAsignados":"$ 9.564.123",
+        "anioAsignacion":"2015",
         "beneficios":"Pasantías VRIEA",
         "instiBenef":"VRIEA"
 
@@ -19,6 +20,7 @@
         "fechaTermino":"30/03/20",
         "duracion":"1 año",
         "recursosAsignados":"$ 4.135.485",
+        "anioAsignacion":"2019",
         "beneficios":"Término de tesis VRIEA",
         "instiBenef":"VRIEA"
 
@@ -31,6 +33,7 @@
         "fechaTermino":"30/03/18",
         "duracion":"1 año",
         "recursosAsignados":"$ 8.153.123",
+        "anioAsignacion":"2017",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 
@@ -43,6 +46,7 @@
         "fechaTermino":"30/03/21",
         "duracion":"1 año",
         "recursosAsignados":"$ 13.456.213",
+        "anioAsignacion":"2020",
         "beneficios":"Pasantías VRIEA",
         "instiBenef":"VRIEA"
 
@@ -55,6 +59,7 @@
         "fechaTermino":"30/03/21",
         "duracion":"1 año",
         "recursosAsignados":"$ 10.153.213",
+        "anioAsignacion":"2020",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 
@@ -67,6 +72,7 @@
         "fechaTermino":"30/03/20",
         "duracion":"1 año",
         "recursosAsignados":"$ 7.564.312",
+        "anioAsignacion":"2019",
         "beneficios":"Pasantías VRIEA",
         "instiBenef":"VRIEA"
 
@@ -79,6 +85,7 @@
         "fechaTermino":"30/03/17",
         "duracion":"1 año",
         "recursosAsignados":"$ 7.536.654",
+        "anioAsignacion":"2016",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 
@@ -91,6 +98,7 @@
         "fechaTermino":"30/03/16",
         "duracion":"1 año",
         "recursosAsignados":"$ 8.346.489",
+        "anioAsignacion":"2015",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 
@@ -103,6 +111,7 @@
         "fechaTermino":"30/03/19",
         "duracion":"1 año",
         "recursosAsignados":"$ 7.534.354",
+        "anioAsignacion":"2018",
         "beneficios":"Pasantías VRIEA",
         "instiBenef":"INF PUCV"
 
@@ -115,6 +124,7 @@
         "fechaTermino":"30/03/21",
         "duracion":"1 año",
         "recursosAsignados":"$ 5.156.213",
+        "anioAsignacion":"2020",
         "beneficios":"Pasantías INF",
         "instiBenef":"INF PUCV"
 

@@ -64,6 +64,7 @@ calcularColor(alumno: any): { barra: string, texto: string } {
     /*this.dataService.getData().subscribe((result)=> {
       this.alumno=result;
     });*/
+    this.dataService.updateNavbarButtonGroupVisibility(true);
     this.dataService.filtrarPorPeriodo('semestreActual'); // Filtrar por este semestre por defecto
     this.alumnosFiltradosSubscription = this.dataService.alumnosFiltrados$.subscribe(
       (alumnosFiltrados) => {

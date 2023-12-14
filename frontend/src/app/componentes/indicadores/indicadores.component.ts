@@ -91,19 +91,24 @@ export class IndicadoresComponent implements OnInit {
     const data = Object.values(cotutelaCounts);
 
     this.cotutelaChart = new Chart(this.cotutelaCanvas.nativeElement, {
-      type: 'line',
+      type: 'bar',
       data: {
         labels: labels,
         datasets: [{
-          label: 'Cantidad de alumnos que poseen/no poseen cotutela',
+          label: 'Cantidad de estudiantes',
           data: data,
-          fill: false,
-          borderColor: 'green',
-          borderWidth: 2
+          backgroundColor: 'RGBA( 165, 42, 42, 1 )',
+          borderColor: 'RGBA( 165, 42, 42, 1 )',
+          borderWidth: 1
         }]
       },
       options: {
-        // Configuración opcional de las opciones del gráfico
+        scales: {
+          y: {
+            type: 'linear', 
+            beginAtZero: true
+          }
+        }
       }
     });
   }
